@@ -1,0 +1,73 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+.card
+{
+    background-image: linear-gradient(rgb(76, 245, 231),rgb(115, 62, 231));
+    /* display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px; */
+    margin-bottom: 20px;
+}
+
+.Width-set
+{
+    width: 30rem;
+}
+
+.card-body input
+{
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+.humidity-icon
+{
+    width: 50px;
+}
+.wind-icon
+{
+    width: 50px;
+}
+.details 
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 120px;
+}
+
+
+@media (max-width: 576px) { 
+    .card-body input {
+        width: 226px;
+        padding: 10px 15px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 50px;
+        box-sizing: border-box;
+    }
+    .w-100 {
+        width: 57%!important;
+    }
+    .Width-set
+    {
+        width:26rem;
+    }
+
+}
